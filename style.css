@@ -13,7 +13,8 @@
 
 #character{
   position: absolute;
-    background-image: url("ninja.gif");
+    background-image: url("shaohua.jpeg");
+    border-radius: 50%;
     background-size: contain;
     background-color: black;
     height: 40px;
