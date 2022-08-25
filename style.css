@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+
+
+
+#character{
+  position: absolute;
+    background-image: url("imgs/ninja.gif");
+    background-size: contain;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+
+#ninjamanGame{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+
+
+
+.wall{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
+
+.blank{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
+
+.sushi{
+    background-image: url("imgs/sushi.png");
+    background-size: contain;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
+
+.onigiri {
+    background-image: url("imgs/onigiri.png");
+    background-size: contain;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
+
+#victory{
+    visibility: hidden;
+    margin-left: 100px;
+    color: blue;
+}
+
+#scoreCard{
+    display: flex;
+}
