@@ -51,7 +51,7 @@
 }
 
 .sushi{
-    background-image: url("imgs/sushi.png");
+    background-image: url("sushi.png");
     background-size: contain;
     background-color: black;
     height: 40px;
@@ -59,7 +59,7 @@
 }
 
 .onigiri {
-    background-image: url("imgs/onigiri.png");
+    background-image: url("onigiri.png");
     background-size: contain;
     background-color: black;
     height: 40px;
