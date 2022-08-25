@@ -13,7 +13,7 @@
 
 #character{
   position: absolute;
-    background-image: url("imgs/ninja.gif");
+    background-image: url("ninja.gif");
     background-size: contain;
     background-color: black;
     height: 40px;
